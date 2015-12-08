@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="244366cf-857f-4548-a546-9d726edafc26" name="UMLUseCaseDiagram1" linkedPackageId="c91e4e14-8a79-490d-b1a1-3669bd7cf6a2" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <ownedCommentsInternal>
+    <comment Id="34667329-fb4b-4307-8e70-a774290f038a">
+      <elementDefinition Id="3009ff0f-8bc4-46a7-aca8-519f606c297c" />
+      <body>För systemarkitekter - seniorer</body>
+    </comment>
+  </ownedCommentsInternal>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="3cfad9a3-a736-47f8-abab-438de37fe5b9" name="Actor1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="52d88b83-66d3-47af-bd45-bdfc429ae7b6" />
+        <suppliersInternal>
+          <dependency Id="7da30ac7-132f-41b7-a098-837e02f04e2e">
+            <useCaseMoniker Id="8cd5f3f0-eab9-4e49-b97b-de22f90c9e2b" LastKnownName="UseCase1" />
+            <elementDefinition Id="28af67d0-f6e6-497e-ac96-827a8ea65499" />
+          </dependency>
+        </suppliersInternal>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="8cd5f3f0-eab9-4e49-b97b-de22f90c9e2b" name="UseCase1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="33841270-9827-409e-8772-e5d37ec97615" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="c265e98b-09a2-4607-bfa6-669c9cf60039" name="Actor2" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bd0d1f23-da9e-449e-be5f-579f66d0db48" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="fe51bcbe-b925-4444-84e8-56bfc0313ae3" name="Actor3" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7db05c03-59c8-4934-8b7d-3ac630902d23" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="e55ea6b9-dae2-44fe-8aee-d35dfd758afb" name="Actor4" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="955ac9bd-e8f5-4aa7-b02d-23bf462b537b" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="150176b1-b8d1-437d-a89d-7fd4f148e545" name="UseCase2" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9aeaffc7-ce58-4bd5-86cd-eaaf5d4999f8" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="c91e4e14-8a79-490d-b1a1-3669bd7cf6a2" name="ModelingProject1">
+    <elementDefinition Id="f2a7890f-ebaf-46b8-b796-568b45541bd9" />
+    <profileInstances>
+      <packageHasProfileInstances Id="fe0ed58f-b7fe-4d1d-acda-1b2e45c69bed">
+        <profileInstance Id="42231afa-5dc3-431e-93f9-d17abca97d0e" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="18d80a96-cc9f-4e2a-b736-a79c39230947">
+        <profileInstance Id="89ac823f-7c6e-4cc6-a3d1-432190a5666f" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>
